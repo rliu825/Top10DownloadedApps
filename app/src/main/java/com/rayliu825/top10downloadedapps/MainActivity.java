@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         ListApps = (ListView) findViewById(R.id.xmlListView);
         DownloadData downloadData = new DownloadData();
         //copy link from rss information
-        downloadData.execute("http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/topsongs/limit=25/xml");
+        downloadData.execute("http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/topfreeapplications/limit=10/xml");
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
